@@ -2,7 +2,6 @@ body{
   font: 15px/1.5 Lucida Handwriting, cursive;
   padding:0;
   margin:0;  
-  /* background-color:#c8e6ca; */
 }
 
 .background {
@@ -33,7 +32,7 @@ header nav{
   float:right;
   margin-top:-70px;
   }
-    
+
 main {
    font: 20px Georgia, Serif;
    background:#c8e6ca;
@@ -48,6 +47,18 @@ main {
     border:3px solid #009284; 
     object-fit: cover; 
 }
+
+@media screen and (max-width: 768px) {
+  header li, 
+  header nav   {
+    text-align:block;     
+     padding-top:40px;   
+  }
+
+   header{
+      font-size:15px;
+  }
+    }
 
 footer{
     font: 20px Times New Roman, Serif;
