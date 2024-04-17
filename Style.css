@@ -1,0 +1,58 @@
+body{
+  font: 15px/1.5 Lucida Handwriting, cursive;
+  padding:0;
+  margin:0;  
+  /* background-color:#c8e6ca; */
+}
+
+.background {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header **/
+header{
+  background:#009284;
+  color:#ffcdd2;
+  padding:20px;
+}
+
+header a{
+  color:#ffcdd2;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:20px;
+}  
+
+header li{
+  display:inline;  
+  padding:0 15px 0 15px;  
+}
+
+header nav{
+  float:right;
+  margin-top:-70px;
+  }
+    
+main {
+   font: 20px Georgia, Serif;
+   background:#c8e6ca;
+   margin: 0;
+    padding: 15px;
+    color:#009284;
+}
+
+.profile-pic {
+    width: 300px;
+    border-radius: 15%;
+    border:3px solid #009284; 
+    object-fit: cover; 
+}
+
+footer{
+    font: 20px Times New Roman, Serif;
+    background:#ffcdd2;
+    Text-align:center;
+    color:#009284;
+    padding:5px;
+    }
